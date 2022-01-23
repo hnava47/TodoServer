@@ -1,3 +1,15 @@
 1. Run "npm init -y"
 2. RUn "npm i express"
 3. Create server.js
+
+
+Heroku deployment of application:
+// Install heroku node package globally
+npm i -g heroku
+// Only needed to establish heroku remote
+heroku login
+heroku git:remote -a hector-todo-v3
+
+// App name must be unique across ALL of heroku
+1. heroku create app
+2. git push heroku main
