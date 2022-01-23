@@ -9,6 +9,10 @@ npm i -g heroku
 // Only needed to establish heroku remote
 heroku login
 heroku git:remote -a hector-todo-v3
+// heroku  https://git.heroku.com/hector-todo-v3.git (fetch)
+// heroku  https://git.heroku.com/hector-todo-v3.git (push)
+// origin  https://github.com/hnava47/TodoServer.git (fetch)
+// origin  https://github.com/hnava47/TodoServer.git (push)
 
 // App name must be unique across ALL of heroku
 1. heroku create app
